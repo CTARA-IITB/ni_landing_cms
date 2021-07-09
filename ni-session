@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<NotepadPlus>
+    <Session activeView="0">
+        <mainView activeIndex="0">
+            <File firstVisibleLine="0" xOffset="0" scrollWidth="2288" startPos="1938" endPos="1938" selMode="0" offset="0" wrapCount="1" lang="PHP" encoding="-1" userReadOnly="no" filename="S:\xampp\htdocs\nutritionindia\index.php" backupFilePath="" originalFileLastModifTimestamp="1732715346" originalFileLastModifTimestampHigh="30893672" mapFirstVisibleDisplayLine="-1" mapFirstVisibleDocLine="-1" mapLastVisibleDocLine="-1" mapNbLine="-1" mapHigherPos="-1" mapWidth="-1" mapHeight="-1" mapKByteInDoc="34843904" mapWrapIndentMode="-1" mapIsWrap="no" />
+            <File firstVisibleLine="254" xOffset="0" scrollWidth="2288" startPos="4491" endPos="4491" selMode="0" offset="0" wrapCount="1" lang="CSS" encoding="-1" userReadOnly="no" filename="S:\xampp\htdocs\nutritionindia\css\style.css" backupFilePath="" originalFileLastModifTimestamp="-1309298659" originalFileLastModifTimestampHigh="30893671" mapFirstVisibleDisplayLine="-1" mapFirstVisibleDocLine="-1" mapLastVisibleDocLine="-1" mapNbLine="-1" mapHigherPos="-1" mapWidth="-1" mapHeight="-1" mapKByteInDoc="6488166" mapWrapIndentMode="-1" mapIsWrap="no" />
+        </mainView>
+        <subView activeIndex="0" />
+    </Session>
+</NotepadPlus>

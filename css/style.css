@@ -1,0 +1,356 @@
+.body {
+	width: 1280px;
+	color: #7D7D7D;
+}
+
+/* Rectangle 62 */
+.top_head {
+	width: 100%;
+	height: 5rem;
+}
+
+
+/* nutrition india logo*/
+.nutrition-logo {
+	position: relative;
+	width: 97%;
+	height: 5.5rem;
+	left: 84px;
+	top: -13px;
+	background: url(../images/nutrition-logo.svg);
+	background-repeat: no-repeat;
+	z-index: 9;
+}
+.yellow-round-big {
+	background-color: #FFD703;
+    border-radius: 87px;
+    height: 174px;
+    width: 174px;
+    left: -80px;
+    top: -85px;
+    position: absolute;
+}
+.div-carousel {
+	position: relative;
+	width: 300px;
+	height: 300px;
+}
+
+.div-carousel-updates {
+	position: relative;
+	width: 90%;
+	/*height: 4rem;*/
+	height: auto;
+}
+
+.c-image {
+	height: auto;
+	width: 100%;
+	border: 0px;
+	
+}
+
+.img-thumbnail {
+	height: 300px;
+	width:300px;
+	border-radius: 150px;
+	/*box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);*/
+	border: 0px;
+	/*filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));*/
+}
+.yellow-round-small {
+	position: absolute;
+	width: 80px;
+	height: 80px;
+	left: 236px;
+	top: 250px;
+	background: #FFD703;
+	border: 3px solid #FFE145;
+	box-sizing: border-box;
+	border-radius: 40px;
+	box-sizing: border-box;
+}
+
+.health-ministry {
+	background: url('../images/mhf.png');
+	width: 143px;
+	height: inherit;
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position-y: center;
+}
+
+.poshan-abhiyan {
+	background: url('../images/pa.png');
+	width: 86px;
+	height: 5rem;
+	background-repeat: no-repeat;
+	background-position-x: right;
+	background-size: contain;
+}
+
+.updates-div {
+	text-align: left;
+	background: #FFF7DA;
+	margin-left: 2rem!important;
+	padding: 1rem!important;
+	padding-bottom: 2rem!important;
+}
+
+.lifecycle-bg {
+	background: rgba(214, 109, 7, 0.55);
+	clear:both;
+	/*#D66D07*/
+}
+
+.clear {
+	clear: both;
+	/*padding-top:1rem;*/
+}
+
+.lifecycle-head {
+	font-style: normal;
+	font-weight: bold;
+	font-size: 40px;
+	line-height: 37px;
+	color: #313030;
+}
+
+.lifecycle-image {
+	border: 0.5rem solid #FFD703;
+	border-radius: 50%;
+    width: 85%;
+	height:auto;
+}
+
+.lifecycle-subhead {
+	background-color: #F2A559;
+	color: #323030;
+	border-radius: 10px 10px 0px 0px;
+	width: auto;
+	font-style: normal;
+	font-weight: 400;
+	padding: .5rem!important;
+	height:48px;
+	line-height: 18px;
+    font-size: 16px;
+}
+
+
+.lifecycle-div-selected {
+	position: relative;
+    top: 0;
+    left: 0;
+    right: 0;
+    text-align: center;
+}
+
+.lifecycle-image-selected {
+	border: 0.5rem solid #D66D07;
+	border-radius: 50%;
+	height: auto;
+    width: 60%;
+}
+
+.lifecycle-subhead-selected {
+	background-color: #FFF7DA;
+	color: #323030;
+	border-radius: 10px 10px 0px 0px;
+	box-shadow: 0px 6px 7px 2px #A75607;
+	width:auto%;
+	font-weight: bold;
+	display:block;
+	padding: .5rem!important;
+	height:48px;
+	line-height: 18px;
+}
+
+.lifecycle-detail-img {
+	border-radius: 0px 8rem 8rem 0px;
+	/*opacity: 0.7;*/
+}
+
+.lifecycle-detail-img-text {
+	background: rgba(255, 247, 218, 0.77);
+	position: relative;
+	top: -50px;
+}
+
+.text-green {
+	color: #04750F;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 20px;
+	line-height:1.5rem;
+}
+
+.bgcolor-white {
+	background-color: #FFFFFF;
+}
+
+.lifecycle-subhead-2{
+	font-weight: 500;
+	font-size: 22px;
+	line-height: 26px;
+	color: #222222;
+}
+
+.col-3 {
+	max-width: 24%;
+}
+
+.indicators {
+	background: #FFE895;
+	border: 2px solid #F2A559;
+	color: #D66D07 !important;
+	box-sizing: border-box;
+	border-radius: 10px;
+	min-width: 125px;
+	min-height: 45px;
+	font-size: 14px;
+	display: flex;
+	align-items: center;
+	text-align: center;
+	justify-content: center;
+	cursor: pointer;
+	line-height: 1rem;
+}
+/*new*/
+.head-content{
+    padding-top: 1rem!important;
+    margin-left: 1rem!important;
+    margin-top: 1rem!important;
+	left: 5rem;
+	position: relative;
+  }
+
+.set {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+
+.disabled {
+	display: none;
+}
+
+.enabled {
+	display: block;
+}
+
+.cursor-pointer {
+	cursor: pointer;
+}
+
+.carousel-control-next {
+    right: 1rem;
+	top: unset;
+	bottom: 0.5rem;
+}
+
+.carousel-control-next-icon {
+	background-color: #FFD703;
+}
+
+.updates-div-heading {
+	background-color: #FFD703;
+	height: 0.5rem;
+	color: black;
+	border-radius: 1rem 1rem 0rem 0rem;
+	text-align: left;
+	margin-left: 2rem!important;
+	padding: 1rem 0rem 2rem 1rem !important;
+	font-weight: 700;
+}
+
+.bg-yellow {
+	background-color: #FFD703;
+}
+
+.color-yellow {
+	color: #ffc107;
+}
+
+.w-20 {
+	width: 20%;
+}
+
+.w-30 {
+	width: 30%;
+}
+
+.w-40 {
+	width: 40%;
+}
+
+
+.w-50 {
+	width: 50%;
+}
+
+.h-05 {
+	height: 3%;
+}
+
+.footer {
+	height: 4rem;
+	width:auto;
+	background-color: black;
+	text-align: center;
+	margin-top: 1rem;
+}
+
+.nutrition-image {
+	height: auto;
+	width:50%;
+	/*padding-top: 1rem;*/
+}
+
+.iitb-image {
+	height: auto;
+	width: 25%;
+}
+
+.proditech-image {
+	height: auto;
+	width:30%;
+}
+
+.unichef-image {
+	height: auto;
+	width:30%;
+	/*padding-top: 1rem;*/
+}
+
+.padding-rightleft {
+	padding-left: 0.5rem;
+	padding-right: 0.5rem;
+}
+
+.i-icon{
+	text-align: right;
+	position:relative;
+	top: -2rem;
+}
+
+.resources{
+	background-color: #e56b0c;;
+	position: absolute;
+	left: 65%;
+	top: -5px;
+	color: #fff;
+	padding: 7px 23px;
+	z-index: -1;
+	border-radius: 5px;
+	letter-spacing: 1px;
+    font-weight: 500;
+}
+.img-width{
+	width: 3%;
+}
+
+.w-lc {
+	width:15%;
+}
