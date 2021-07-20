@@ -39,9 +39,9 @@
 				<div class="nutrition-logo display-none-mobile"></div>
 				<div class="head-content">
 
-				<div class="updates-div-heading">
+			<!--	<div class="updates-div-heading">
 						UPDATES
-				</div>
+				</div> -->
 					<div class="updates-div">
 						<div class="div-carousel-updates">
 							<div id="carousel_updates" class="carousel slide" data-ride="carousel" data-interval="20000">
@@ -80,7 +80,7 @@
 				<div class="yellow-round-big"></div>
 				<div class="yellow-round-small"></div>
 				<div class="div-carousel">
-					<div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel" data-interval="20000">
+					<div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel" data-interval="6000000">
 					  <div class="carousel-inner">
 						<div class="carousel-item active">
 						  <img class="d-block c-image" src="images/carousel/c1.png" alt="First slide">
