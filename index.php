@@ -214,16 +214,13 @@ echo "";
 	<footer class="footer p-0 mt-4">
 		<div class="row  p-0 m-0 align-items-center">
 			
-			<div class="col-3">
+			<div class="col-4">
 				<a href="https://nutritionindia.info/" target="_blank"><img src="<?php echo IMAGES_WEBROOT; ?>nutrition-logo-footer.svg" class="nutrition-image"></a>
 			</div>
-			<div class="col-3">
+			<div class="col-4">
 				<a href="https://www.ctara.iitb.ac.in/" target="_blank"><img src="<?php echo IMAGES_WEBROOT; ?>ctara-logo.png" title="CTARA" class="iitb-image"></a>
 			</div>
-			<div class="col-3">
-				<a href="https://proditech.in" target="_blank"><img src="<?php echo IMAGES_WEBROOT; ?>proditech-logo.png" title="Nutrition India, Website developed by PRODITECH Solutions, Mumbai." class="proditech-image"></a>
-			</div>
-			<div class="col-3">
+			<div class="col-4">
 				<a href="http://unicef.in/" target="_blank"><img src="<?php echo IMAGES_WEBROOT; ?>unicefLogo.png"  class="unichef-image"></a>
 			</div>
 		</div> 
