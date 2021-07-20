@@ -175,7 +175,7 @@
 						<div class="col-12 col-lg-'.$cols.' bgcolor-white p-content border-5px mobile-style">
 							<div id="div_cat_'.$lcid."_".$catid.'" class="lifecycle-subhead-2">'.$arr_catval['cat_name'].'</div>
 							<div id="div_ind_'.$catid.'" class="">
-								<div class="pt-3">'.$arr_catval['cat_desc'].'</div>';
+								<div class="pt-3 display-none-mobile">'.$arr_catval['cat_desc'].'</div>';
 						foreach($arr_catval['indicator'] as $indid => $arr_indval)
 						{
 							$str_lc_details[$lcid] .= '
