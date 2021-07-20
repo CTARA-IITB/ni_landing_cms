@@ -1,0 +1,12 @@
+build/
+config.php
+config.php.old
+config.php.old2
+index.html.old
+nindia/
+phpmyadmin
+portal/
+proditech_dashboard/
+reports/
+static/
+dashboard/
