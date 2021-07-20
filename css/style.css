@@ -354,3 +354,14 @@
 .w-lc {
 	width:15%;
 }
+.test-123 {
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+.test-123:hover {
+    overflow: visible;
+    white-space: pre-wrap;
+}
+
