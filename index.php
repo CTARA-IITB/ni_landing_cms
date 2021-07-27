@@ -98,7 +98,7 @@
 					  </div>
 					</div>
 				</div>
-				<div class="i-icon"><a href="https://nutritionindia.info/rep_wp/cnns-factsheets/" target="_blank"><img src="images/i-icon.png" class="img-width"></a></div>
+				<div class="i-icon"><a href="/reports/cnns-factsheets/" target="_blank"><img src="images/i-icon.png" class="img-width"></a></div>
 			</div>
 		</div>
 	</div>
