@@ -293,15 +293,15 @@ echo "";
 		{
 			$("div[id='div_ind_"+last+"']").removeClass('display-none-mobile-lifecycle');
 			$("div[id='div_ind_"+last+"']").addClass('display-block-mobile-lifecycle');
-			$("div[id='lc_desc_"+lcid+"']").addClass('disabled');
-			$("div[id='lc_desc_"+lcid+"']").removeClass('enabled');
+			//  $("div[id='lc_desc_"+lcid+"']").addClass('disabled');
+			//  $("div[id='lc_desc_"+lcid+"']").removeClass('enabled');
 		}
 		else 
 		{
 			$("div[id='div_ind_"+last+"']").removeClass('display-block-mobile-lifecycle');
 			$("div[id='div_ind_"+last+"']").addClass('display-none-mobile-lifecycle');
-			$("div[id='lc_desc_"+lcid+"']").addClass('enabled');
-			$("div[id='lc_desc_"+lcid+"']").removeClass('disabled');
+			//  $("div[id='lc_desc_"+lcid+"']").addClass('enabled');
+			//  $("div[id='lc_desc_"+lcid+"']").removeClass('disabled');
 		}
 	});
 </script>
