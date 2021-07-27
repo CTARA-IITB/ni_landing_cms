@@ -26,8 +26,8 @@
 <body>
 <div class="container-fluid px-0">
 	<div class="p-3 top_head sticky">
-		<div class='health-ministry float-left w-50'></div>
-		<div class='poshan-abhiyan float-left w-50'></div>
+		<div class='float-left w-50'><a href="https://www.mohfw.gov.in/" target="_blank"><img class='mfa' src='images/mhf.png'/></a></div>
+		<div class='float-right w-50'><a href="http://poshanabhiyaan.gov.in/#/" target="_blank"><img class='pa' src='images/pa.png'/></a></div>
 	</div>
 	<div class="p-3 col-12">
 		<div class='text-center align-content-center for-mobile align-items-center'>

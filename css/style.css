@@ -72,7 +72,7 @@
 }
 
 .health-ministry {
-	background: url('../images/mhf.png');
+	/*background: url('../images/mhf.png');*/
 	width: 143px;
 	height: inherit;
 	background-repeat: no-repeat;
@@ -81,12 +81,23 @@
 }
 
 .poshan-abhiyan {
-	background: url('../images/pa.png');
+	/* background: url('../images/pa.png');*/
 	width: 86px;
 	height: 5rem;
 	background-repeat: no-repeat;
 	background-position-x: right;
 	background-size: contain;
+}
+.pa{
+	height: 100%;
+	width:13%;
+	float: right;
+}
+
+
+.mfa{
+   	height: 100%;
+	width: auto;
 }
 
 .updates-div {

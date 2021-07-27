@@ -84,6 +84,12 @@
 		background-size: contain;
 		height: 3.5rem;
 	}
+	.pa{
+		width:40%;
+	}
+	.mfa{
+		width:80%;
+	}
 	.head-content{
 		padding: 0 !important;
 		margin-left: 0 !important;
