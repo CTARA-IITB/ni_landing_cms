@@ -106,7 +106,7 @@
 					  </div>
 					</div>
 				</div>
-				<div class="i-icon"><a href="/reports/factsheets/" target="_blank"><img src="images/i-icon.png" class="img-width"></a></div>
+				<div class="i-icon"><a href="/reports/factsheets" target="_blank"><img src="images/i-icon.png" class="img-width"></a></div>
 			</div>
 		</div>
 	</div>
