@@ -22,14 +22,17 @@
 <link href="<?php echo VENDOR_WEBROOT;?>fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
 <link rel="stylesheet" type="text/css" href="css/style.css">
 <link rel="stylesheet" type="text/css" href="css/responsive.css">
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-WJ6B9Z8QY8"></script>
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-P9QSQ9LZ2S"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
 
-  gtag('config', 'G-WJ6B9Z8QY8');
+  gtag('config', 'G-P9QSQ9LZ2S');
 </script>
+
 </head>
 <body>
 <div class="container-fluid px-0">
