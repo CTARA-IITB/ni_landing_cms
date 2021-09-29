@@ -24,7 +24,7 @@
 		font-src https://dev.nutritionindiainfo.in;
         img-src 'self' 'unsafe-inline' https://www.google-analytics.com;
         manifest-src 'self';
-        script-src 'unsafe-inline' https://www.google-analytics.com https://www.googletagmanager.com http://www.googletagmanager.com https://dev.nutritionindiainfo.in;
+        script-src 'unsafe-inline' https://www.google-analytics.com http://www.googletagmanager.com https://dev.nutritionindiainfo.in;
         style-src 'self' 'unsafe-inline';
     ">
 <title>Nutrition India</title>
