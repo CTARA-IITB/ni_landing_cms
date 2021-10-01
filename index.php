@@ -16,6 +16,17 @@
 <meta name="apple-mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
 <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, viewport-fit=cover" />
+<meta 
+      http-equiv="Content-Security-Policy" 
+      content="
+        connect-src 'self'  https://dev.nutritionindiainfo.in https://www.google-analytics.com;
+        default-src 'none';
+		font-src https://dev.nutritionindiainfo.in;
+        img-src 'self' 'unsafe-inline' https://www.google-analytics.com;
+        manifest-src 'self';
+        script-src 'unsafe-inline' https://www.google-analytics.com http://www.googletagmanager.com https://dev.nutritionindiainfo.in;
+        style-src 'self' 'unsafe-inline';
+    ">
 <title>Nutrition India</title>
 
 <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
