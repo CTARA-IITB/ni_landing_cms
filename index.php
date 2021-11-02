@@ -19,15 +19,14 @@
 <meta 
       http-equiv="Content-Security-Policy" 
       content="
-        connect-src 'self'  https://dev.nutritionindiainfo.in https://www.google-analytics.com;
+        connect-src 'self'  https://dev.communitygis.net https://uat2.nutritionindia.info https://dev.nutritionindiainfo.in https://nutritionindia.info https://uat.nutritionindia.info https://www.google-analytics.com;
         default-src 'none';
-		font-src https://dev.nutritionindiainfo.in;
-        img-src 'self' 'unsafe-inline' https://www.google-analytics.com;
+        img-src 'self' 'unsafe-inline' https://www.google-analytics.com data:;
         manifest-src 'self';
-        script-src 'unsafe-inline' https://www.google-analytics.com http://www.googletagmanager.com https://dev.nutritionindiainfo.in;
+        script-src 'unsafe-inline' https://dev.communitygis.net https://uat2.nutritionindia.info https://dev.nutritionindiainfo.in https://nutritionindia.info https://www.google-analytics.com https://www.googletagmanager.com http://www.googletagmanager.com http://localhost:3000  https://uat.nutritionindia.info;
         style-src 'self' 'unsafe-inline';
     ">
-<title>Nutrition India</title>
+<title>NutritionINDIA</title>
 
 <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
 <link href="<?php echo VENDOR_WEBROOT;?>fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
