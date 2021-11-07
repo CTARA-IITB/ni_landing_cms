@@ -197,6 +197,7 @@
 					
 					foreach($arr_vals['category'] as $catid =>$arr_catval )
 					{
+						
 						$str_lc_details[$lcid] .= '
 						<div class="col-12 col-lg-'.$cols.' bgcolor-white p-content border-5px mobile-style">
 							<div id="div_cat_'.$lcid."_".$catid.'" class="lifecycle-subhead-2">'.$arr_catval['cat_name'].'</div>
