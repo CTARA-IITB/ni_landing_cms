@@ -12,6 +12,9 @@
 <!DOCTYPE HTML>
 <html lang="en">
 <head>
+<title>NutritionINDIA - Lifecycles, India's Statwise  NFHS Reports </title>
+<meta name=”robots” content="index, follow">	
+<meta http-equiv="refresh" content="5;url=https://nutritionindia.info/">
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <meta name="apple-mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
@@ -26,7 +29,9 @@
         script-src 'unsafe-inline' https://dev.communitygis.net https://uat2.nutritionindia.info https://dev.nutritionindiainfo.in https://nutritionindia.info https://www.google-analytics.com https://www.googletagmanager.com http://www.googletagmanager.com http://localhost:3000  https://uat.nutritionindia.info;
         style-src 'self' 'unsafe-inline';
     ">
-<title>NutritionINDIA</title>
+
+<meta name="description" content="Nutrition INDIA Lifecycles, NFHS5 Reports, Adolescence,Women of Reproductive Age, Pregnancy, Delivery/PNC, Early Childhood, School Age"/>
+
 
 <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
 <link href="<?php echo VENDOR_WEBROOT;?>fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
@@ -160,7 +165,7 @@
 					<div id="d1_<?php echo $lcid; ?>" class="pt-2 mr-1 float-left text-center cursor-pointer <?php echo $alignselfend; ?> w-lc" onclick="show(this);">
 						<!-- <a href="javascript: void(0);" > -->
 						<div id="d2_<?php echo $lcid; ?>"  class="<?php echo $d2_class; ?>">
-							<img id="img_<?php echo $lcid; ?>" class="<?php echo $img_selected; ?>" src='<?php echo IMAGES_WEBROOT.'lifecycle/'.$arr_vals['lc_image']; ?>'>
+							<img id="img_<?php echo $lcid; ?>" class="<?php echo $img_selected; ?>" src='<?php echo IMAGES_WEBROOT.'lifecycle/'.$arr_vals['lc_image']; ?>' alt="India NFHS5 Reports Data Visualization ">
 						</div>
 						<div id="d3_<?php echo $lcid; ?>" class="<?php echo $lifecyclesubhead; ?> text-center"><?php echo $arr_vals['lc_name']; ?></div>
 						<!-- </a> -->
@@ -177,7 +182,7 @@
 			<div id="div_detail_'.$lcid.'" class="col-12 col-lg-12 '.$disabled.' padding-rightleft ">
 				<div class="tab-content">
 					<div class="display-desktop-catimg text-center pb-3">
-						<img class="lifecycle-detail-img" src="'.IMAGES_WEBROOT.'lifecycle/'.$arr_vals['lc_image'].'">
+						<img class="lifecycle-detail-img" src="'.IMAGES_WEBROOT.'lifecycle/'.$arr_vals['lc_image'].'"  alt="India NFHS5 Reports">
 						<div class="lifecycle-detail-img-text">
 							<div class="text-green display-none-desktop">'.$arr_vals['lc_name'].'</div>
 						</div>
@@ -192,6 +197,7 @@
 					
 					foreach($arr_vals['category'] as $catid =>$arr_catval )
 					{
+						
 						$str_lc_details[$lcid] .= '
 						<div class="col-12 col-lg-'.$cols.' bgcolor-white p-content border-5px mobile-style">
 							<div id="div_cat_'.$lcid."_".$catid.'" class="lifecycle-subhead-2">'.$arr_catval['cat_name'].'</div>
@@ -200,7 +206,7 @@
 						foreach($arr_catval['indicator'] as $indid => $arr_indval)
 						{
 							$str_lc_details[$lcid] .= '
-								<a class="indicators float-left m-1 p-1" href="'.$arr_indval['ind_url'].'" target="_blank">'.$arr_indval['ind_name'].'</a>
+								<a class="indicators float-left m-1 p-1" href="'.$arr_indval['ind_url'].'" target="_blank"   alt="India NFHS5 Reports '.$arr_indval['ind_name'].'">'.$arr_indval['ind_name'].'</a>
 							';
 						}
 						
@@ -236,13 +242,13 @@ echo "";
 		<div class="row  p-0 m-0 align-items-center">
 			
 			<div class="col-4">
-				<a href="https://nutritionindia.info/" target="_blank"><img src="<?php echo IMAGES_WEBROOT; ?>nutrition-logo-footer.svg" class="nutrition-image"></a>
+				<a href="https://nutritionindia.info/" target="_blank"><img src="<?php echo IMAGES_WEBROOT; ?>nutrition-logo-footer.svg" class="nutrition-image"  alt = "India NFHS5 Reports" ></a>
 			</div>
 			<div class="col-4">
-				<a href="https://www.ctara.iitb.ac.in/" target="_blank"><img src="<?php echo IMAGES_WEBROOT; ?>ctara-logo.png" title="CTARA" class="iitb-image"></a>
+				<a href="https://www.ctara.iitb.ac.in/" target="_blank"><img src="<?php echo IMAGES_WEBROOT; ?>ctara-logo.png" title="CTARA" class="iitb-image"  alt = "India NFHS5 Reports"></a>
 			</div>
 			<div class="col-4">
-				<a href="http://unicef.in/" target="_blank"><img src="<?php echo IMAGES_WEBROOT; ?>unicefLogo.png"  class="unichef-image"></a>
+				<a href="http://unicef.in/" target="_blank"><img src="<?php echo IMAGES_WEBROOT; ?>unicefLogo.png"  class="unichef-image"  alt = "India NFHS5 Reports"></a>
 			</div>
 		</div> 
 	</footer>
@@ -314,6 +320,7 @@ echo "";
 		{
 			$("div[id='div_ind_"+last+"']").removeClass('display-none-mobile-lifecycle');
 			$("div[id='div_ind_"+last+"']").addClass('display-block-mobile-lifecycle');
+
 			//  $("div[id='lc_desc_"+lcid+"']").addClass('disabled');
 			//  $("div[id='lc_desc_"+lcid+"']").removeClass('enabled');
 		}
