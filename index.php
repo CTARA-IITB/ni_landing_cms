@@ -14,7 +14,6 @@
 <head>
 <title>NutritionINDIA - Lifecycles, India's Statwise  NFHS Reports </title>
 <meta name=”robots” content="index, follow">	
-<meta http-equiv="refresh" content="5;url=https://nutritionindia.info/">
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <meta name="apple-mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
