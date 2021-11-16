@@ -10,13 +10,12 @@
 ?>
 <?php
 
-$path = parse_url( $url,PHP_URL_PATH );
-
-$destinationUrlPath=str_replace("www.", "", $path);
-
-header("Location: ".$destinationUrlPath);
-
+$path = $_SERVER['HTTP_HOST'];
+if($path == 'www.nutritionindia.info'){
+        header('Location: https://nutritionindia.info/');
+}
 ?>
+
 
 <!DOCTYPE HTML>
 <html lang="en">
