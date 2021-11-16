@@ -12,7 +12,7 @@
 
 $path = parse_url( $url,PHP_URL_PATH );
 
-$destinationUrlPath=str_replace("/www/", "/", $path);
+$destinationUrlPath=str_replace("www.", "", $path);
 
 header("Location: ".$destinationUrlPath);
 
