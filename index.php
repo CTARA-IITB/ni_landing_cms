@@ -20,7 +20,7 @@ if($path == 'www.nutritionindia.info'){
 <!DOCTYPE HTML>
 <html lang="en">
 <head>
-<title>NutritionINDIA - Lifecycles, India's Statewise  NFHS Reports </title>
+<title>HealthNutritionINDIA - Lifecycles, India's Statewise  NFHS Reports </title>
 <meta name=”robots” content="index, follow">	
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <meta name="apple-mobile-web-app-capable" content="yes">
@@ -249,7 +249,7 @@ echo "";
 		<div class="row  p-0 m-0 align-items-center">
 			
 			<div class="col-4">
-				<a href="https://nutritionindia.info/" target="_blank"><img src="<?php echo IMAGES_WEBROOT; ?>nutrition-logo-footer.svg" class="nutrition-image"  alt = "India NFHS5 Reports" ></a>
+				<a href="https://healthnutritionindia.in/" target="_blank"><img src="<?php echo IMAGES_WEBROOT; ?>healthnutrition-logo.png" class="nutrition-image"  alt = "India NFHS5 Reports" ></a>
 			</div>
 			<div class="col-4">
 				<a href="https://www.ctara.iitb.ac.in/" target="_blank"><img src="<?php echo IMAGES_WEBROOT; ?>ctara-logo.png" title="CTARA" class="iitb-image"  alt = "India NFHS5 Reports"></a>
