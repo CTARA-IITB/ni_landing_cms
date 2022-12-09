@@ -11,8 +11,8 @@
 <?php
 
 $path = $_SERVER['HTTP_HOST'];
-if($path == 'www.nutritionindia.info'){
-        header('Location: https://nutritionindia.info/');
+if($path == 'www.healthnutritionindia.in'){
+        header('Location: https://healthnutritionindia.in/');
 }
 ?>
 
@@ -46,13 +46,13 @@ if($path == 'www.nutritionindia.info'){
 <link rel="stylesheet" type="text/css" href="css/responsive.css">
 
 <!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-P9QSQ9LZ2S"></script>
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-TQVBHXEJ61"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
 
-  gtag('config', 'G-P9QSQ9LZ2S');
+  gtag('config', 'G-TQVBHXEJ61');
 </script>
 
 </head>
