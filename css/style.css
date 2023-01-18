@@ -13,11 +13,11 @@
 /* nutrition india logo*/
 .nutrition-logo {
 	position: relative;
-	width: 100%;
+	width: 91%;
 	height: 5.5rem;
 	left: 84px;
 	top: -13px;
-	background: url(../images/healthnutrition-logo.png);
+	background: url(../images/hn5.png);
 	background-repeat: no-repeat;
 	z-index: 9;
 	background-size: 36rem 88px;
@@ -332,10 +332,13 @@
 
 .unichef-image {
 	height: auto;
-	width:25%;
+	width:50%;
 	/*padding-top: 1rem;*/
 }
-
+.visitor-count{
+	height:auto;
+	width:80%;
+}
 .padding-rightleft {
 	padding-left: 0.5rem;
 	padding-right: 0.5rem;
