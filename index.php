@@ -260,7 +260,7 @@ echo "";
 				<a href="http://unicef.in/" target="_blank"><img src="<?php echo IMAGES_WEBROOT; ?>unicefLogo.png"  class="unichef-image"  alt = "India NFHS5 Reports"></a>
 			</div>
 			<div class = "col-2" style="color:white;">
-				<div class="visitor-count"><?php echo "Unique Visitors: " .getUniqueVisitor(); ?></div>		
+				<div class="visitor-count"><?php echo "Visitors Count: " .getUniqueVisitor(); ?></div>		
 			</div>
 
 		</div> 
