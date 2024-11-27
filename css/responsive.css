@@ -85,7 +85,7 @@
 		height: 3.5rem;
 	}
 	.pa{
-		width:40%;
+		width:30%;
 	}
 	.mfa{
 		width:80%;
@@ -442,7 +442,7 @@
 
 @media (max-width: 575px) {
 	.tree-size{
-		width:40%;
+		width:30%;
 		margin-left: 180px;
 }
 
