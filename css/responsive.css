@@ -446,6 +446,25 @@
 		margin-left: 180px;
 }
 
+.guide {
+	/* background: #FFE895; */
+	border: 2px solid #F2A559;
+	color: #D66D07 !important;
+	box-sizing: border-box;
+	border-radius: 10px;
+	font-size: 5px;
+	min-width: 80px;
+	min-height: 30px;
+	font-size: 10px;
+	display: flex;
+	align-items: center;
+	text-align: center;
+	justify-content: center;
+	cursor: pointer;
+	/* line-height: 1rem; */
+	margin-right: 2000px;
+}
+
 }
 /*(max-width: 575px)*/
 

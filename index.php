@@ -68,7 +68,7 @@ if($path == 'www.healthnutritionindia.in'){
 		<div class='float-right w-50'>
 			<div class="right-section" >
 				<!-- <button class="my-button" onclick="">Click Me</button> -->
-				<a class="guide float-left" style="margin-right:-150px;z-index:1" href="https://dev.nutritionindiainfo.in/reports/documents/31/User-Guidance-Document.pdf" target="_blank"   alt="guide">User Guide</a>
+				<a class="guide float-left" style="margin-right:-150px;z-index:1" href="reports/documents/31/User-Guidance-Document.pdf" target="_blank"   alt="guide">User Guide</a>
 				<a href="http://poshanabhiyaan.gov.in/#/" target="_blank"><img class='pa' src='images/pa.png'/></a>
 			</div>
 		</div>
@@ -91,10 +91,10 @@ if($path == 'www.healthnutritionindia.in'){
 							<div id="carousel_updates" class="carousel slide" data-ride="carousel" data-interval="20000">
 								<div class="carousel-inner">
 								<div class="resources-container">
-									<a href="https://google.com" target="_blank" class="resource-link">SRS</a>
+									<a href="https://srs.census.gov.in/Srs/Account" target="_blank" class="resource-link">SRS</a>
 									<a href="https://google.com" target="_blank" class="resource-link">NFHS</a>
 									<a href="https://google.com" target="_blank" class="resource-link">CNNS</a>
-									<a href="https://google.com" target="_blank" class="resource-link">Census</a>
+									<a href="https://censusindia.gov.in/census.website/" target="_blank" class="resource-link">Census</a>
 								</div>
 
 																	
