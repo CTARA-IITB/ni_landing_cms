@@ -1,8 +1,8 @@
 <?php
 	require_once 'config.php';
 	require_once 'functions.php';
-	require __DIR__. '/counter/counter.php';
-        makeHit();addUniqueIP();
+	// require __DIR__. '/counter/counter.php';
+    //     makeHit();addUniqueIP();
 	
 	$arr_lc = getCategoriesAndIndicators();
 	//echo "<pre>";
@@ -62,7 +62,16 @@ if($path == 'www.healthnutritionindia.in'){
 <div class="container-fluid px-0">
 	<div class="p-3 top_head sticky">
 		<div class='float-left w-50'><a href="https://www.mohfw.gov.in/" target="_blank"><img class='mfa' src='images/mhf.png'/></a></div>
-		<div class='float-right w-50'><a href="http://poshanabhiyaan.gov.in/#/" target="_blank"><img class='pa' src='images/pa.png'/></a></div>
+		<!-- <div class=''><a href="http://poshanabhiyaan.gov.in/#/" target="_blank"><img class='' src=''/></a></div> -->
+		
+		<!-- <div class='float-right w-50'><a class="guide float-left" href="https://dev.nutritionindiainfo.in/dashboard/1/1/96" target="_blank"   alt="guide">References</a></div> -->
+		<div class='float-right w-50'>
+			<div class="right-section" >
+				<!-- <button class="my-button" onclick="">Click Me</button> -->
+				<a class="guide float-left" style="margin-right:-150px;z-index:1" href="https://dev.nutritionindiainfo.in/reports/documents/31/User-Guidance-Document.pdf" target="_blank"   alt="guide">User Guide</a>
+				<a href="http://poshanabhiyaan.gov.in/#/" target="_blank"><img class='pa' src='images/pa.png'/></a>
+			</div>
+		</div>
 	</div>
 	<div class="p-3 col-12">
 		<div class='text-center align-content-center for-mobile align-items-center'>
@@ -81,7 +90,15 @@ if($path == 'www.healthnutritionindia.in'){
 						<div class="div-carousel-updates">
 							<div id="carousel_updates" class="carousel slide" data-ride="carousel" data-interval="20000">
 								<div class="carousel-inner">
-<?php
+								<div class="resources-container">
+									<a href="https://google.com" target="_blank" class="resource-link">SRS</a>
+									<a href="https://google.com" target="_blank" class="resource-link">NFHS</a>
+									<a href="https://google.com" target="_blank" class="resource-link">CNNS</a>
+									<a href="https://google.com" target="_blank" class="resource-link">Census</a>
+								</div>
+
+																	
+<!-- <?php
 	$i=0;
 	foreach($arr_upt as $k => $arr_uptval)
 	{
@@ -98,16 +115,16 @@ if($path == 'www.healthnutritionindia.in'){
 		echo "</div>";
 		$i++;
 	}
-?>
+?> -->
 
 								</div>
 							</div>
 							
 						</div>
-						<div><a class="carousel-control-next" href="#carousel_updates" role="button" data-slide="next">
+						<!-- <div><a class="carousel-control-next" href="#carousel_updates" role="button" data-slide="next">
     <span class="color-yellow fa fa-arrow-circle-right" aria-hidden="true"><i class=''></i></span>
     <span class="sr-only">Next</span>
-  </a></div>
+  </a></div> -->
 					</div>
 				</div>
 			</div>
@@ -133,7 +150,17 @@ if($path == 'www.healthnutritionindia.in'){
 					  </div>
 					</div>
 				</div>
-				<div class="i-icon"><a href="/reports/factsheets" target="_blank"><img src="images/i-icon.png" class="img-width"></a></div>
+
+				<div class="i-icon">
+                                                <div class='tree-container'>
+                                                        <div class='tree-logo'><a href="/reports/rootCauseAnalysis" target="_blank"><img src="images/2_v1.png" class="tree-size"></a>
+                                                        </div>
+                                                </div>
+
+                                                <a href="/reports/factsheets" target="_blank"><img src="images/i-icon.png" class="img-width"></a>
+                                </div>
+
+				<!-- <div class="i-icon"><a href="/reports/factsheets" target="_blank"><img src="images/i-icon.png" class="img-width"></a></div> -->
 			</div>
 		</div>
 	</div>

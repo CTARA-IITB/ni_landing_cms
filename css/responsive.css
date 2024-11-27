@@ -441,6 +441,10 @@
 /*(min-width: 576px) and (max-width: 767px)*/
 
 @media (max-width: 575px) {
+	.tree-size{
+		width:40%;
+		margin-left: 180px;
+}
 
 }
 /*(max-width: 575px)*/
