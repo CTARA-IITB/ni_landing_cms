@@ -93,7 +93,7 @@ if($path == 'www.healthnutritionindia.in'){
 								<div class="resources-container">
 									<a href="https://srs.census.gov.in/Srs/Account" target="_blank" class="resource-link">SRS</a>
 									<a href="https://www.nfhsiips.in/nfhsuser/index.php" target="_blank" class="resource-link">NFHS</a>
-									<a href="https://www.iipsindia.ac.in/content/CNNS" target="_blank" class="resource-link">CNNS</a>
+									<a href="https://knowledge.unicef.org/resource/comprehensive-national-nutrition-survey-2016-2018" target="_blank" class="resource-link">CNNS</a>
 									<a href="https://censusindia.gov.in/census.website/" target="_blank" class="resource-link">Census</a>
 								</div>
 
