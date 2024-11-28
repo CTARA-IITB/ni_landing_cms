@@ -31,11 +31,11 @@ if($path == 'www.healthnutritionindia.in'){
 <meta 
       http-equiv="Content-Security-Policy" 
       content="
-        connect-src 'self'  https://healthnutritionindia.in https://dev.communitygis.net https://uat2.nutritionindia.info https://dev.nutritionindiainfo.in https://nutritionindia.info https://uat.nutritionindia.info https://www.google-analytics.com;
+        connect-src 'self'  http://localhost/ https://healthnutritionindia.in https://dev.communitygis.net https://uat2.nutritionindia.info https://dev.nutritionindiainfo.in https://nutritionindia.info https://uat.nutritionindia.info https://www.google-analytics.com;
         default-src 'self';
         img-src 'self' 'unsafe-inline' https://www.google-analytics.com data:;
         manifest-src 'self';
-        script-src 'unsafe-inline' https://healthnutritionindia.in https://dev.communitygis.net https://uat2.nutritionindia.info https://dev.nutritionindiainfo.in https://nutritionindia.info https://www.google-analytics.com https://www.googletagmanager.com http://www.googletagmanager.com http://localhost:3000  https://uat.nutritionindia.info;
+        script-src 'unsafe-inline' http://localhost/ https://healthnutritionindia.in https://dev.communitygis.net https://uat2.nutritionindia.info https://dev.nutritionindiainfo.in https://nutritionindia.info https://www.google-analytics.com https://www.googletagmanager.com http://www.googletagmanager.com http://localhost:3000  https://uat.nutritionindia.info;
         style-src 'self' 'unsafe-inline';
     ">
 
@@ -135,17 +135,28 @@ if($path == 'www.healthnutritionindia.in'){
 					<div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel" data-interval="6000">
 					  <div class="carousel-inner">
 						<div class="carousel-item active">
-						  <img class="d-block c-image" src="images/carousel/c1.png" alt="First slide">
+						  <img class="d-block c-image" src="images/HealthImages/h1.png" alt="First slide">
 						</div>
 						<div class="carousel-item">
-						  <img class="d-block c-image" src="images/carousel/c2.png" alt="Second slide">
+						  <img class="d-block c-image" src="images/HealthImages/h3.png" alt="Second slide">
 						</div>
 						<div class="carousel-item">
-						  <img class="d-block c-image" src="images/carousel/c3.png" alt="Third slide">
+						  <img class="d-block c-image" src="images/HealthImages/h4.png" alt="Third slide">
 						</div>
 						
 						<div class="carousel-item">
-						  <img class="d-block c-image" src="images/carousel/c4.png" alt="Fourth slide">
+						  <img class="d-block c-image" src="images/HealthImages/h5.png" alt="Fourth slide">
+						</div>
+
+						<div class="carousel-item">
+						  <img class="d-block c-image" src="images/HealthImages/h6.png" alt="Fourth slide">
+						</div>
+
+						<div class="carousel-item">
+						  <img class="d-block c-image" src="images/HealthImages/h7.png" alt="Fourth slide">
+						</div>
+						<div class="carousel-item">
+						  <img class="d-block c-image" src="images/HealthImages/h8.png" alt="Fourth slide">
 						</div>
 					  </div>
 					</div>
@@ -287,7 +298,6 @@ echo "";
 				<a href="http://unicef.in/" target="_blank"><img src="<?php echo IMAGES_WEBROOT; ?>unicefLogo.png"  class="unichef-image"  alt = "India NFHS5 Reports"></a>
 			</div>
 			<div class = "col-2" style="color:white;">
-				<div class="visitor-count"><?php echo "Visitors Count: " .getUniqueVisitor(); ?></div>		
 			</div>
 
 		</div> 
