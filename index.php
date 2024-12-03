@@ -98,7 +98,7 @@ if($path == 'www.healthnutritionindia.in'){
 									<a href="https://dev.nutritionindiainfo.in/reports/nfhsfactsheets" target="_blank" class="resource-link">NFHS</a>
 									<a href="https://dev.nutritionindiainfo.in/reports/factsheets" target="_blank" class="resource-link">CNNS</a>
 									<a style="flex:1" href="https://censusindia.gov.in/census.website/" target="_blank" class="resource-link resource-redirect">Census</a>
-									<a style="flex:2" href="https://main.mohfw.gov.in/sites/default/files/Population%20Projection%20Report%202011-2036%20-%20upload_compressed_0.pdf" target="_blank" class="resource-link">Population Projection (2011 - 2036)</a>
+									<a style="flex:2" href="https://dev.nutritionindiainfo.in/static_files/Population_Projections_2011-2036.pdf" target="_blank" class="resource-link">Population Projection (2011 - 2036)</a>
 									<a style="flex:1;" href="https://www.mospi.gov.in/download-reports" target="_blank" class="resource-link resource-redirect">NSSO</a>
 								</div>
 
