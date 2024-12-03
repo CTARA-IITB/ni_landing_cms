@@ -65,15 +65,18 @@ if($path == 'www.healthnutritionindia.in'){
 		<!-- <div class=''><a href="http://poshanabhiyaan.gov.in/#/" target="_blank"><img class='' src=''/></a></div> -->
 		
 		<!-- <div class='float-right w-50'><a class="guide float-left" href="https://dev.nutritionindiainfo.in/dashboard/1/1/96" target="_blank"   alt="guide">References</a></div> -->
-		<div class='float-right w-50'>
+		<div class='float-right w-50' style="padding-bottom:0">
 			<div class="right-section" >
 				<!-- <button class="my-button" onclick="">Click Me</button> -->
 				<a class="guide float-left" style="margin-right:-150px;z-index:1" href="reports/documents/31/User-Guidance-Document.pdf" target="_blank"   alt="guide">User Guide</a>
+				
+				
+
 				<a href="http://poshanabhiyaan.gov.in/#/" target="_blank"><img class='pa' src='images/pa.png'/></a>
 			</div>
 		</div>
 	</div>
-	<div class="p-3 col-12">
+	<div class="p-3 col-12" style="margin-bottom:-6.9rem">
 		<div class='text-center align-content-center for-mobile align-items-center'>
 			<!-- <div class="yellow-round-big"></div> -->
 			<div class="pt-4 col-md-12 col-lg-6 col-12 float-left for-mobile-1 display-none-desktop pb-ipad">
@@ -91,10 +94,12 @@ if($path == 'www.healthnutritionindia.in'){
 							<div id="carousel_updates" class="carousel slide" data-ride="carousel" data-interval="20000">
 								<div class="carousel-inner">
 								<div class="resources-container">
-									<a href="https://srs.census.gov.in/Srs/Account" target="_blank" class="resource-link">SRS</a>
-									<a href="https://www.nfhsiips.in/nfhsuser/index.php" target="_blank" class="resource-link">NFHS</a>
-									<a href="https://knowledge.unicef.org/resource/comprehensive-national-nutrition-survey-2016-2018" target="_blank" class="resource-link">CNNS</a>
-									<a href="https://censusindia.gov.in/census.website/" target="_blank" class="resource-link">Census</a>
+									<a href="https://dev.nutritionindiainfo.in/reports/srs-reports/" target="_blank" class="resource-link">SRS</a>
+									<a href="https://dev.nutritionindiainfo.in/reports/nfhsfactsheets" target="_blank" class="resource-link">NFHS</a>
+									<a href="https://dev.nutritionindiainfo.in/reports/factsheets" target="_blank" class="resource-link">CNNS</a>
+									<a style="flex:1" href="https://censusindia.gov.in/census.website/" target="_blank" class="resource-link resource-redirect">Census</a>
+									<a style="flex:2" href="https://main.mohfw.gov.in/sites/default/files/Population%20Projection%20Report%202011-2036%20-%20upload_compressed_0.pdf" target="_blank" class="resource-link">Population Projection (2011 - 2036)</a>
+									<a style="flex:1;" href="https://www.mospi.gov.in/download-reports" target="_blank" class="resource-link resource-redirect">NSSO</a>
 								</div>
 
 																	
@@ -131,6 +136,9 @@ if($path == 'www.healthnutritionindia.in'){
 			<div class="col-md-4 col-12 float-left for-mobile-2">
 				<div class="yellow-round-big"></div>
 				<div class="yellow-round-small"></div>
+				<div class="i-icon-top">
+					<a href="/reports/factsheets" target="_blank"><img src="images/i-icon.png" class="img-width"></a>
+				</div>
 				<div class="div-carousel">
 					<div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel" data-interval="6000">
 					  <div class="carousel-inner">
@@ -161,6 +169,7 @@ if($path == 'www.healthnutritionindia.in'){
 					  </div>
 					</div>
 				</div>
+			
 
 				<div class="i-icon">
                                                 <div class='tree-container'>
@@ -168,7 +177,7 @@ if($path == 'www.healthnutritionindia.in'){
                                                         </div>
                                                 </div>
 
-                                                <a href="/reports/factsheets" target="_blank"><img src="images/i-icon.png" class="img-width"></a>
+                                                <!-- <a href="/reports/factsheets" target="_blank"><img src="images/i-icon.png" class="img-width"></a> -->
                                 </div>
 
 				<!-- <div class="i-icon"><a href="/reports/factsheets" target="_blank"><img src="images/i-icon.png" class="img-width"></a></div> -->

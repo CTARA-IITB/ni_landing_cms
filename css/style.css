@@ -277,7 +277,13 @@
     color: white; /* Ensure text color remains white */
     text-decoration: none; /* Ensure no underline appears */
 }
-
+.resource-redirect{
+	color: blue;
+	text-decoration-line: underline;
+}
+.resource-redirect:hover{
+	color: rgb(0, 106, 255)
+}
 .tree-size {
     width: 150%;
     margin-left: -10px;
@@ -417,6 +423,14 @@
 	position:relative;
 	top: -2rem;
 	margin-top: -10rem;
+}
+
+.i-icon-top{
+	text-align: right;
+	/* position:relative; */
+	top: -3rem;
+	width: 130px;
+	margin-left: 28rem;
 }
 
 .resources{
