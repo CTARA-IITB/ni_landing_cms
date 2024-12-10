@@ -59,8 +59,9 @@ if($path == 'www.healthnutritionindia.in'){
 
 </head>
 <body>
-<div class="container-fluid px-0">
-	<div class="p-3 top_head sticky">
+<div class="container-fluid px-0" >
+	
+	<div class="p-3 top_head sticky" >
 		<div class='float-left w-50'><a href="https://www.mohfw.gov.in/" target="_blank"><img class='mfa' src='images/mhf.png'/></a></div>
 		<!-- <div class=''><a href="http://poshanabhiyaan.gov.in/#/" target="_blank"><img class='' src=''/></a></div> -->
 		
@@ -76,7 +77,7 @@ if($path == 'www.healthnutritionindia.in'){
 			</div>
 		</div>
 	</div>
-	<div class="p-3 col-12" style="margin-bottom:-6.9rem">
+	<div class="p-3 col-12" style=" height:48vh">
 		<div class='text-center align-content-center for-mobile align-items-center'>
 			<!-- <div class="yellow-round-big"></div> -->
 			<div class="pt-4 col-md-12 col-lg-6 col-12 float-left for-mobile-1 display-none-desktop pb-ipad">

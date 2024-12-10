@@ -123,15 +123,15 @@
 .lifecycle-head {
 	font-style: normal;
 	font-weight: bold;
-	font-size: 40px;
-	line-height: 37px;
+	font-size: 2rem;
+	line-height: 27px;
 	color: #313030;
 }
 
 .lifecycle-image {
 	border: 0.5rem solid #FFD703;
 	border-radius: 50%;
-    width: 85%;
+    width: 75%;
 	height:auto;
 }
 
