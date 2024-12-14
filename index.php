@@ -77,7 +77,7 @@ if($path == 'www.healthnutritionindia.in'){
 			</div>
 		</div>
 	</div>
-	<div class="p-3 col-12" style=" height:48vh">
+	<div class="p-3 col-12 half-screen">
 		<div class='text-center align-content-center for-mobile align-items-center'>
 			<!-- <div class="yellow-round-big"></div> -->
 			<div class="pt-4 col-md-12 col-lg-6 col-12 float-left for-mobile-1 display-none-desktop pb-ipad">
