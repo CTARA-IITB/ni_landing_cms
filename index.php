@@ -176,6 +176,7 @@ if($path == 'www.healthnutritionindia.in'){
                                                 <div class='tree-container'>
                                                         <div class='tree-logo'><a href="/reports/rootCauseAnalysis" target="_blank"><img src="images/2_v1.png" class="tree-size"></a>
                                                         </div>
+														<div class='tree-logo'><img src="images/hni_qr.png" class="qr-size"></div>
                                                 </div>
 
                                                 <!-- <a href="/reports/factsheets" target="_blank"><img src="images/i-icon.png" class="img-width"></a> -->

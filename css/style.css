@@ -286,10 +286,31 @@
 .resource-redirect:hover{
 	color: rgb(0, 106, 255)
 }
-.tree-size {
-    width: 150%;
+/* .tree-size {
+    width: 250%;
     margin-left: -10px;
     margin-bottom: 20px;
+} */
+
+
+.tree-size {
+    width: 150px;  /* adjust based on desired size */
+    height: auto;
+}
+.tree-logo {
+    flex-shrink: 0; /* prevents logo from shrinking */
+}
+.qr-size {
+    width: 150px;  /* large, but not overflowing */
+    height: auto;
+    margin-left: 0; /* or fine-tune if needed */
+    margin-bottom: 20px;
+}
+
+.tree-container {
+    display: flex;
+    align-items: center; /* optional: vertically center the logos */
+    gap: 50px; /* optional: space between the logos */
 }
 
 @media (max-width: 768px) {
