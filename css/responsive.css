@@ -445,13 +445,34 @@
 	    right: -0.5rem;
 	    top: 1rem;
 	}
+
+
+	
+   
+
 }
 /*(min-width: 576px) and (max-width: 767px)*/
 
 @media (max-width: 575px) {
-	.tree-size{
+	/* .tree-size{
 		width:30%;
 		margin-left: 180px;
+} */
+
+.tree-size {
+	margin-left: 200px;
+	width: 100px; /* shrink the tree logo on small screens */
+}
+.qr-size {
+	display: none; /* hide QR image on mobile */
+}
+
+.i-icon-top{
+	text-align: right;
+	/* position:relative; */
+	top: -3rem;
+	width: 130px;
+	margin-left: 16rem;
 }
 
 .guide {
