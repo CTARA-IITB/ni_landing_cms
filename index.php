@@ -1,8 +1,8 @@
 <?php
 	require_once 'config.php';
 	require_once 'functions.php';
-	// require __DIR__. '/counter/counter.php';
-    //     makeHit();addUniqueIP();
+	require __DIR__. '/counter/counter.php';
+        makeHit();addUniqueIP();
 	
 	$arr_lc = getCategoriesAndIndicators();
 	//echo "<pre>";
@@ -95,11 +95,11 @@ if($path == 'www.healthnutritionindia.in'){
 							<div id="carousel_updates" class="carousel slide" data-ride="carousel" data-interval="20000">
 								<div class="carousel-inner">
 								<div class="resources-container">
-									<a href="https://dev.nutritionindiainfo.in/reports/srs-reports/" target="_blank" class="resource-link">SRS</a>
-									<a href="https://dev.nutritionindiainfo.in/reports/nfhsfactsheets" target="_blank" class="resource-link">NFHS</a>
-									<a href="https://dev.nutritionindiainfo.in/reports/factsheets" target="_blank" class="resource-link">CNNS</a>
+									<a href="/reports/srs-reports/" target="_blank" class="resource-link">SRS</a>
+									<a href="/reports/nfhsfactsheets" target="_blank" class="resource-link">NFHS</a>
+									<a href="/reports/factsheets" target="_blank" class="resource-link">CNNS</a>
 									<a style="flex:1" href="https://censusindia.gov.in/census.website/" target="_blank" class="resource-link resource-redirect">Census</a>
-									<a style="flex:2" href="https://dev.nutritionindiainfo.in/static_files/Population_Projections_2011-2036.pdf" target="_blank" class="resource-link">Population Projection (2011 - 2036)</a>
+									<a style="flex:2" href="/static_files/Population_Projections_2011-2036.pdf" target="_blank" class="resource-link">Population Projection (2011 - 2036)</a>
 									<a style="flex:1;" href="https://www.mospi.gov.in/download-reports" target="_blank" class="resource-link resource-redirect">NSSO</a>
 								</div>
 
@@ -309,6 +309,7 @@ echo "";
 				<a href="http://unicef.in/" target="_blank"><img src="<?php echo IMAGES_WEBROOT; ?>unicefLogo.png"  class="unichef-image"  alt = "India NFHS5 Reports"></a>
 			</div>
 			<div class = "col-2" style="color:white;">
+					<div class="visitor-count"><?php echo "Visitors Count: " .getUniqueVisitor(); ?></div>
 			</div>
 
 		</div> 
