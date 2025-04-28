@@ -1,8 +1,8 @@
 <?php
 	require_once 'config.php';
 	require_once 'functions.php';
-	require __DIR__. '/counter/counter.php';
-        makeHit();addUniqueIP();
+	//require __DIR__. '/counter/counter.php';
+	//makeHit();addUniqueIP();
 	
 	$arr_lc = getCategoriesAndIndicators();
 	//echo "<pre>";
@@ -22,7 +22,7 @@ if($path == 'www.healthnutritionindia.in'){
 <!DOCTYPE HTML>
 <html lang="en">
 <head>
-<title>HealthNutritionINDIA - Lifecycles, India's Statewise  NFHS Reports </title>
+<title>HealthNutritionINDIA - 20 years of health and nutrition data at a single click </title>
 <meta name=”robots” content="index, follow">	
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <meta name="apple-mobile-web-app-capable" content="yes">
@@ -39,8 +39,9 @@ if($path == 'www.healthnutritionindia.in'){
         style-src 'self' 'unsafe-inline';
     ">
 
-<meta name="description" content="NutritionINDIA Lifecycles, NFHS5 Reports, Adolescence,Women of Reproductive Age, Pregnancy, Delivery/PNC, Early Childhood, School Age"/>
 
+<meta name="description" content="India's health and nutrition lifecycle data analytics and visualization on: Adolescence, Women of Reproductive age, Pregnancy, Delivery PNC, Early Childhood and School Age."/>
+<meta property="og:image" content="/favicon.png" />
 
 <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
 <link href="<?php echo VENDOR_WEBROOT;?>fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
